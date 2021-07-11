@@ -69,3 +69,30 @@ header img {
     line-height: 1.8rem;
     color: var(--soft-orange);
 }
+.header--title-container .header--button {
+   /* Abosolute toma como relative a su padre en este caso el head, danonos la oportunidad de mover el boton y colocarlo en donde mas nos conbenga, en este caso lo sacamos un poco de la posicion de headar para que quede mitad en este y la otra en la seccion siguiente */
+    position: absolute;
+    left: calc(50% - 118px);/*Para que el boton se quede en el centro*/
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+}
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/down-arrow.svg');
+}
