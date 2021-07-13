@@ -228,7 +228,8 @@ main {
     font-weight: 300;
     color: var(--warm-black);
 }
-/* reto para la tabla, aunque siento que es demasiado codigo copiado */
+
+/* reto para la tabla de comiciones, aunque siento que es demasiado codigo copiado  para cambiar un color*/
 .main-commissions-table {
     width: 70%;
     min-width: 235px;
@@ -237,7 +238,6 @@ main {
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
-
 .main-commissions-table .commissions-table--title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -296,4 +296,43 @@ main {
     line-height: 2.5rem;
     font-weight: 300;
     color: var(--warm-black);
+}
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url('./assets/icons/batata.svg');
+}
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
