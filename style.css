@@ -440,6 +440,14 @@ main {
     color: #757575;
 }
 
+/* para crear el scroll orisontal */
+.plans-container--slider {
+    display: flex;
+    height: 316px;
+    overflow: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 .plans-container-card {
     position: relative;
     scroll-snap-align: center;/*Centra automaticamente en el scroll al darle click*/  
